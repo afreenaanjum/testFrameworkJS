@@ -1,4 +1,4 @@
-(function (global) {
+(function (global, $) {
   var Greeter = function (firstName, lastName, language) {
     return new Greeter.init(firstName, lastName, language);
   };
@@ -73,4 +73,4 @@
 
   //Aliasing
   global.Greeter = global.G$ = Greeter;
-})(window);
+})(window, jQuery);

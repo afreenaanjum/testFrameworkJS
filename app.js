@@ -1,3 +1,7 @@
-var person = G$("Afreena", "Anjum", "hi");
-console.log(person);
-person.greet().greet("s").setLang("en").greet().log();
+var ulStyle = Css($(".people"))
+  .textColor("green")
+  .fontSize(30)
+  .padding("40 20")
+  .border("1px black solid")
+  .margin("120");
+var liStyle = Css($("#font-40")).fontSize(40).padding(30);
